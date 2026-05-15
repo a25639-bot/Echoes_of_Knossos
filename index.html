@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Game — by MyUsername</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── SITE HEADER ── -->
+  <header class="site-header">
+    <div class="logo">My Site</div>
+    <nav>
+      <a href="#">Browse</a>
+      <a href="#">Jams</a>
+      <a href="#">Community</a>
+    </nav>
+    <div class="header-right">
+      <button class="btn-small">Log in</button>
+      <button class="btn-small btn-accent">Register</button>
+    </div>
+  </header>
+
+  <!-- ── GAME BANNER ── -->
+  <div class="game-header">
+    <div class="game-banner-placeholder">
+      <span>Your Banner Image</span>
+    </div>
+    <h1 class="game-title">My Game Title</h1>
+    <p class="game-author">by <a href="#">MyUsername</a></p>
+  </div>
+
+  <!-- ── USER TOOLS BAR ── -->
+  <div class="user-tools">
+    <a href="#">⊕ View all by author</a>
+    <a href="#">＋ Follow</a>
+    <a href="#">⊞ Add to collection</a>
+    <a href="#">✎ Comments</a>
+    <a href="#">☆ Rate this game</a>
+    <a href="#">Related games</a>
+  </div>
+
+  <!-- ── MAIN WRAPPER ── -->
+  <div class="page-wrapper">
+
+    <!-- ── GAME EMBED FRAME ── -->
+    <div class="game-frame">
+      <div class="game-frame-inner">
+        <div class="play-btn">
+          <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+        </div>
+        <span class="play-btn-label">Run game</span>
+      </div>
+    </div>
+
+    <!-- ── DOWNLOAD BUTTON ── -->
+    <div class="download-top">
+      <a href="#" class="btn-download">Download Now</a>
+      <p class="btn-download-sub">Name your own price</p>
+    </div>
+
+    <!-- ── TWO COLUMNS ── -->
+    <div class="columns">
+
+      <!-- LEFT COLUMN -->
+      <div class="left-col">
+
+        <!-- Description -->
+        <div class="formatted-description">
+          <p>Every night, you awaken in your studio and paint your masterpiece.</p>
+          <p>Or, at least, you try to.</p>
+          <p><em>Oh, if only your muse would return.</em></p>
+          <p><em>If only lifting your brush didn't fill your fingertips with agony.</em></p>
+          <p><strong>Note:</strong> Web version may be laggy. For the best experience, please download and play on your OS!</p>
+          <p>This is a short visual novel about art, love and pain. It features:</p>
+          <ul>
+            <li><strong>3.9k words</strong></li>
+            <li><strong>3 endings</strong></li>
+            <li><strong>Hand-drawn artwork</strong></li>
+            <li><strong>Original music</strong></li>
+            <li><strong>Partial voice acting</strong></li>
+          </ul>
+          <p>Originally created in one week for <em>Scream Jam 2023</em>.</p>
+          <p><strong>Content warnings:</strong> Violence, death, body horror, chronic illness, grief, dysfunctional relationships.</p>
+        </div>
+
+        <hr class="divider">
+
+        <!-- More Info Toggle -->
+        <div class="more-info-toggle" onclick="document.querySelector('.info-panel').classList.toggle('hidden')">
+          More information ▾
+        </div>
+        <div class="info-panel">
+          <table>
+            <tr><td>Updated</td><td>48 days ago</td></tr>
+            <tr><td>Published</td><td>Oct 24, 2023</td></tr>
+            <tr><td>Status</td><td><a href="#">Released</a></td></tr>
+            <tr>
+              <td>Platforms</td>
+              <td>
+                <a href="#" class="tag">HTML5</a>
+                <a href="#" class="tag">Windows</a>
+                <a href="#" class="tag">macOS</a>
+                <a href="#" class="tag">Linux</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Rating</td>
+              <td>
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(519 ratings)</span>
+              </td>
+            </tr>
+            <tr><td>Author</td><td><a href="#">MyUsername</a></td></tr>
+            <tr>
+              <td>Genre</td>
+              <td>
+                <a href="#" class="tag">Visual Novel</a>
+                <a href="#" class="tag">Interactive Fiction</a>
+              </td>
+            </tr>
+            <tr><td>Made with</td><td><a href="#">Ren'Py</a></td></tr>
+            <tr>
+              <td>Tags</td>
+              <td>
+                <a href="#" class="tag">Atmospheric</a>
+                <a href="#" class="tag">Dark</a>
+                <a href="#" class="tag">Gothic</a>
+                <a href="#" class="tag">Horror</a>
+                <a href="#" class="tag">Multiple Endings</a>
+                <a href="#" class="tag">Story Rich</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Download Files -->
+        <h2 class="section-heading">Download</h2>
+        <p class="section-sub">Click download now to get access to the following files:</p>
+        <div class="upload-item">
+          <div>
+            <div class="upload-name">mygame-v1.0.zip</div>
+            <div class="upload-meta">165 MB</div>
+          </div>
+          <div class="upload-platforms">
+            <span title="Windows">⊞</span>
+            <span title="macOS">⌘</span>
+            <span title="Linux">🐧</span>
+          </div>
+        </div>
+
+        <!-- Devlog -->
+        <h2 class="section-heading">Development log</h2>
+        <ul class="devlog-list">
+          <li>
+            <a href="#">Minor Patch — Web update</a>
+            <span class="devlog-date">Nov 08, 2024</span>
+          </li>
+          <li>
+            <a href="#">Patch Notes: 1.2.4 &amp; Steam Release</a>
+            <span class="devlog-date">Oct 07, 2024</span>
+          </li>
+          <li>
+            <a href="#">Coming to Steam! Artbook Sale</a>
+            <span class="devlog-date">Aug 27, 2024</span>
+          </li>
+          <li>
+            <a href="#">Complete Edition (1.2) Released!</a>
+            <span class="devlog-date">Apr 04, 2024</span>
+          </li>
+        </ul>
+        <a href="#" class="view-all-link">View all posts →</a>
+
+        <!-- Comments -->
+        <h2 class="section-heading comments-heading">Comments</h2>
+        <input class="comment-form-input" type="text" placeholder="Write your comment…">
+
+        <article class="comment">
+          <div class="comment-avatar">H</div>
+          <div class="comment-content">
+            <header class="comment-header">
+              <span class="comment-author">heart</span>
+              <span class="comment-date">12 days ago</span>
+              <span class="comment-votes">(+1)</span>
+            </header>
+            <p class="comment-body">this was very beautiful, i love the art style and va's!! the style of the game just made me attached fr, i teared up</p>
+            <div class="comment-actions">
+              <a href="#">Reply</a>
+              <a href="#">Report</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="comment">
+          <div class="comment-avatar">K</div>
+          <div class="comment-content">
+            <header class="comment-header">
+              <span class="comment-author">KittyNyaa</span>
+              <span class="comment-date">a month ago</span>
+              <span class="comment-votes">(+2)</span>
+            </header>
+            <p class="comment-body">the way you write is hauntingly beautiful; the atmosphere, the dread, the melancholic longing. your words definitely have a way of pulling the reader in. also the music?? and the voice acting?? amazing ^^</p>
+            <div class="comment-actions">
+              <a href="#">Reply</a>
+              <a href="#">Report</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="comment">
+          <div class="comment-avatar">A</div>
+          <div class="comment-content">
+            <header class="comment-header">
+              <span class="comment-author">Aleu0945</span>
+              <span class="comment-date">a month ago</span>
+              <span class="comment-votes">(+3)</span>
+            </header>
+            <p class="comment-body">I have no words to describe the joy and uneasiness and the pain and everything else I feel. This is magnificent, a true piece of work. Thank you for such a lovely game.</p>
+            <div class="comment-actions">
+              <a href="#">Reply</a>
+              <a href="#">Report</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="load-more">
+          <a href="#">Load more</a>
+        </div>
+
+      </div><!-- /left-col -->
+
+      <!-- RIGHT COLUMN -->
+      <aside class="right-col">
+        <div class="screenshots">
+          <div class="screenshot-placeholder">Screenshot 1</div>
+          <div class="screenshot-placeholder">Screenshot 2</div>
+          <div class="screenshot-placeholder">Screenshot 3</div>
+          <div class="screenshot-placeholder">Screenshot 4</div>
+        </div>
+      </aside>
+
+    </div><!-- /columns -->
+  </div><!-- /page-wrapper -->
+
+  <!-- ── PAGE FOOTER ── -->
+  <footer class="page-footer">
+    <a href="#">View all by author</a>
+    <span class="dot">·</span>
+    <a href="#">Report</a>
+    <span class="dot">·</span>
+    <a href="#">Embed</a>
+    <span class="dot">·</span>
+    <span>Updated 48 days ago</span>
+    <span class="dot">·</span>
+    <span>Games › Visual Novel › Free</span>
+  </footer>
+
+</body>
+</html>
